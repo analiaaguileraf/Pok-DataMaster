@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-block-end: 20px; /* Cambiado de margin-bottom a margin-block-end */
+}
+
+table {
+    inline-size: 100%;  /* Cambiado de width a inline-size */
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: start;  /* Cambiado de left a start */
+}
+
